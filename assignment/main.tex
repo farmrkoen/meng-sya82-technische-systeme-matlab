@@ -1,0 +1,115 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[T1]{fontenc} % Für griechische Buchstaben
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage{array}
+
+%Literaturverzeichnis
+\usepackage[
+    backend=biber, 
+    natbib=true,
+    style=ext-authoryear, 
+    citestyle=apa, 
+    autocite=footnote, 
+    isbn=false, 
+    giveninits=true,
+    innamebeforetitle=true,
+    maxbibnames=3, 
+    maxcitenames=3
+]{biblatex}
+\addbibresource{UFM89 Assignment.bib} % Muss angepasst werden
+% Doppelpunkt nach Jahreszahl
+\renewcommand*{\labelnamepunct}{\addcolon\space}    
+% Komma statt Punkt zwischen Titel, Ausgabe usw.
+\renewcommand*{\newunitpunct}{\addcomma\space}	
+% Entfernt Anführungszeichen
+\DeclareFieldFormat*{title}{#1}
+%Hrsg. in Klammern bei Collections
+\DeclareFieldFormat{editortype}{\mkbibparens{#1}}
+%Komma vor (Hrsg.) weg
+\DeclareDelimFormat{authortypedelim}{\addspace} % Kein Komma nach Autor
+\DeclareDelimFormat{editortypedelim}{\addspace}  % Kein Komma nach Hrsg.
+% Darstellung der urls in gleicher font
+\usepackage{url}
+\urlstyle{same}
+
+%Für aktuelles Datum
+\usepackage{datetime}
+\newdateformat{mydate}{\THEDAY. \monthname[\THEMONTH] \THEYEAR}
+
+% Visuals
+\usepackage{setspace} % Für Zeilenabstand
+\onehalfspacing % Zeilenabstand 1,5
+\usepackage[top=3cm, bottom=3cm, left=2.5cm, right=2cm]{geometry} %Ränder des Dokuments
+\setlength{\parindent}{0pt} % space at start of paragraph
+\setlength{\parskip}{0.3cm} % space between paragraphs
+\usepackage[bottom]{footmisc} % Damit Fußnoten an Seitenende
+\usepackage{amsmath}
+\usepackage{graphicx} % Zum Einfügen von Bildern
+\usepackage{hyperref} %Zum Erstellen von Links
+\hypersetup{
+    colorlinks=true, 
+    allcolors=black
+}
+
+\usepackage{lipsum} % Paket für Standardtext
+\usepackage{comment}
+
+% Format der Fußnoten ändern
+\usepackage{scrextend}
+\deffootnote{0.5em}{0em}{\textsuperscript{\thefootnotemark}\,}
+\renewcommand{\footnoterule}{%
+  \kern -3pt
+  \hrule width 10cm 
+  \kern 2pt
+}
+
+\begin{document}
+    \input{chapters/titlepage}
+    \newpage
+
+    \pagenumbering{Roman}
+    
+    \tableofcontents
+    \newpage
+
+    \input{chapters/0-Abkürzungen.tex}
+    \newpage
+
+    \pagenumbering{arabic}
+    
+    \input{chapters/1-einleitung.tex}
+    
+    \input{chapters/2-grundlagen.tex}
+    
+    \input{chapters/3-hauptteil.tex}
+    \newpage
+
+    \input{chapters/4-fazit.tex}
+    \newpage
+
+    \pagenumbering{Roman}
+    \setcounter{page}{2}
+
+    %Literaturverzeichnis
+    \printbibliography
+    \addcontentsline{toc}{section}{Literaturverzeichnis}
+
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|m{15em}|}
+            \hline
+            KI-basiertes Hilfsmittel & Einsatzform \\ 
+            \hline
+            ChatGPT & Hilfestellung zur Gliederung der Arbeit, Übersetzungen, Rechtschreibkorrektur \\ 
+            \hline
+            Elicit & Quellen- und Literaturrecherche \\ 
+            \hline
+        \end{tabular}
+        \caption{Verwendete KI-basierte Hilfsmittel}
+    \end{table}
+    \newpage
+
+    \input{chapters/eidestattliche erklärung.tex}
+\end{document}
