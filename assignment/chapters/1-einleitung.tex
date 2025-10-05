@@ -13,9 +13,26 @@ An dieser Stelle ist die Modellbildung und Simulation ein unverzichtbares Werkze
 Dynamische Systemmodelle ermöglichen die virtuelle Nachbildung und Analyse des komplexen Zusammenspiels von Thermodynamik, Mechanik und Regelungstechnik.
 
 Aus diesem Grund widmet sich diese Arbeit der Erweiterung eines bestehenden thermodynamischen Modells eines Viertakt-Ottomotors zu einem dynamischen System.
-Ziel wird es sein, das Verhalten des Motors bei einem abrupten Lastwechesel zu simulieren.
+Ziel ist es, das Verhalten des Motors bei einem abrupten Lastwechesel zu simulieren.
 Darauf aufbauend soll mittels PID-Reglers eine Drehzahlstabilisierung implementiert werden.
 Damit soll demonstriert werden, wie der Motor stets im optimalen Betriebspunkt gehalten wird, um die Energieeffizienz zu steigern.
 
 \subsection{Vorgehensweise und Aufbau der Arbeit}
+Um das formulierte Ziel zu erreichen gliedert sich die Vorgehensweise dieser Arbeit in vier Hauptschritte.
+Die Umsetzung der Simulation erfolgt in der Umgebung MATLAB/Simulink.
 
+Die Ausgangsbasis bildet ein bestehendes Modell, welches den Verdichtungs- und Arbeitstakt eines Ottomotors abbildet.
+Dieses Modell wird zunächst analyisert, damit dessen Funktionsweise und Limitationen verstanden werden.
+Eine wesentliche Einschränkung ist die Annahme einer konstanten Drehzahl, welche die Simulation dynamischer Vorgänge verhindert.
+
+Der erste praktische Schritt ist deshalb der Umbau zu einem dynamischen Systemmodell.
+Hierfür wird die konstante Drehzahl durch eine dynamische Berechnung ersetzt.
+Daraufhin wird eine Störgröße, in Form eines Lastsprungs, in das System implementiert.
+Realisiert wird dies durch einen Step-Block, welcher zu einem definierten Zeitpunkt ein abruptes, negativ wirkendes Lastmoment auf die Kurbelwelle schaltet.
+Das Lastmoment sorgt für eine Abweichung der Motordrehzahl.
+Um diese auszugleichen wird ein PID-Regler entworfen.
+Zuerst wird ein Sollwert für den Regelkreis festgelegt.
+Die schwankende, aktuelle Winkelgeschwindigkeit des Motors (Istwert) wird mithilfe eines Tiefpassfilters (PT1-Glied) geglättet, um dem Regler ein stabiles Signal zu liefern.
+Die notwendige Stellgröße des PID-Reglers wird basierend auf der Regeldifferenz generiert und als Skalierfaktor für die Gesamtwärmemenge im Modell genutzt.
+
+Abschließend werden die Ergebnisse der Arbeit kritisch reflektiert, zusammengefasst und ein Ausblick vorgestellt.
