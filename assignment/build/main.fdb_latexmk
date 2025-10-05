@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1759675609.12925 "build/main.bcf" "build/main.bbl" "build/main" 1759676397.81857 0
+["biber build/main"] 1759675609.12925 "build/main.bcf" "build/main.bbl" "build/main" 1759676613.56598 0
   "SYA82.bib" 1759675493.1763 7922 3dd9b12db9e8c7f763f576eed4b4fdc5 ""
-  "build/main.bcf" 1759676397.74779 110298 5b8d70af92b0cea9111de35e46e4ce47 "pdflatex"
+  "build/main.bcf" 1759676613.48987 110298 5b8d70af92b0cea9111de35e46e4ce47 "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1759676396.9507 "/Users/fabiankuhn/Projekte/Masterstudium/SYA82/meng-sya82-technische-systeme-matlab/assignment/main.tex" "build/main.pdf" "main" 1759676397.81881 0
+["pdflatex"] 1759676612.66448 "/Users/fabiankuhn/Projekte/Masterstudium/SYA82/meng-sya82-technische-systeme-matlab/assignment/main.tex" "build/main.pdf" "main" 1759676613.5662 0
   "/Users/fabiankuhn/Projekte/Masterstudium/SYA82/meng-sya82-technische-systeme-matlab/assignment/main.tex" 1759593905.27742 3073 69e2c2bd02e930e4446b7637ab19c8e8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -163,13 +163,13 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1749757280 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1749757206 3345733 8742f2aedf7809035adbf391b68248b2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "build/main.aux" 1759676397.74415 3073 27c51ee4a6023e678c57e706ef5096cb "pdflatex"
+  "build/main.aux" 1759676613.48658 3073 27c51ee4a6023e678c57e706ef5096cb "pdflatex"
   "build/main.bbl" 1759675610.50533 11250 2882e5888e9ac05b381cb59179d50be7 "biber build/main"
-  "build/main.out" 1759676397.74533 2181 7cd133ea0cec865bdeb8b9f9b0a45f62 "pdflatex"
-  "build/main.run.xml" 1759676397.74837 2563 c533fb571277244296da4f5289ee1c4e "pdflatex"
-  "build/main.toc" 1759676397.74843 1188 d41ce60c3422c1e3bb77a31d879e2938 "pdflatex"
+  "build/main.out" 1759676613.48761 2181 7cd133ea0cec865bdeb8b9f9b0a45f62 "pdflatex"
+  "build/main.run.xml" 1759676613.49034 2563 c533fb571277244296da4f5289ee1c4e "pdflatex"
+  "build/main.toc" 1759676613.49039 1188 d41ce60c3422c1e3bb77a31d879e2938 "pdflatex"
   "chapters/0-Abkürzungen.tex" 1759592965.97247 299 f23ce187ff40310e785e24f9953a59d6 ""
-  "chapters/1-einleitung.tex" 1759676395.82921 1930 12cd8e5d1d45c34dd687b3dbaf098c9b ""
+  "chapters/1-einleitung.tex" 1759676612.44691 1932 ba0609c67a9b7f79490b4bd85c74cf50 ""
   "chapters/2-grundlagen.tex" 1759592965.97264 128 ddea1d2df9ae07ede9c41905da903261 ""
   "chapters/3-hauptteil.tex" 1759592965.97272 23 597b0909f3ef165b89cc4b14ada68c27 ""
   "chapters/4-fazit.tex" 1759592965.97282 1142 15923710d0acfc35a0da40c294456750 ""
