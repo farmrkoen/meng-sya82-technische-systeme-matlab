@@ -1,8 +1,8 @@
 # Modul
 
 - Thema: **Modellerweiterung zur Analyse transienter Lasten am Ottomotor**
-- Beginn: 04.10.2025
-- Ende: 
+- Beginn: 05.10.2025
+- Ende: 30.11.2025
 
 ## 🎯 Aufgabenstellung
 
