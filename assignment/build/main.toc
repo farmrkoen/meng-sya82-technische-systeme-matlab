@@ -5,12 +5,12 @@
 \contentsline {subsection}{\numberline {1.2}Vorgehensweise und Aufbau der Arbeit}{1}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Grundlagenthema 1}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Grundlagenthema 2}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Grundlagenthema 3}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Hauptteil}{2}{section.3}%
-\contentsline {section}{\numberline {4}Fazit}{3}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Zusammenfassung}{3}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Ausblick}{3}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Limitationen und kritische Reflexion}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {2.2}Grundlagenthema 2}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Grundlagenthema 3}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Hauptteil}{3}{section.3}%
+\contentsline {section}{\numberline {4}Fazit}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Zusammenfassung}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Ausblick}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Limitationen und kritische Reflexion}{4}{subsection.4.3}%
 \contentsline {section}{Literaturverzeichnis}{II}{section*.3}%
 \contentsline {section}{Eidesstattliche Erklärung}{III}{section*.4}%
