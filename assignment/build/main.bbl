@@ -1,0 +1,196 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{kba2025}{misc}{}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.kba.de/DE/Statistik/Fahrzeuge/Neuzulassungen/MonatlicheNeuzulassungen/2025/202501\_GImonatlich/202501\_nzbarometer/202501\_n\_barometer.html?nn=851112\&monthFilter=01\_Januar\&fromStatistic=851112\&yearFilter=2025\&fromStatistic=851112\&yearFilter=2025\&monthFilter=01\_Januar}
+      \field{title}{Kraftfahrt-{{Bundesamt}} - {{Monatliche Neuzulassungen}} - {{Neuzulassungsbarometer}} Im {{Januar}}~2025}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/fabiankuhn/Zotero/storage/LVPWRYS6/202501_n_barometer.html
+      \endverb
+    \endentry
+    \entry{leach2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e492afe71a4b689466870a918c3b0558}{%
+           family={Leach},
+           familyi={L\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2a49195d820e4295dcf727e759debd84}{%
+           family={Kalghatgi},
+           familyi={K\bibinitperiod},
+           given={Gautam},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5b9d6475296c8d84295d25dc97d3ce56}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=290eb6f62f4781349f959616e821323b}{%
+           family={Miles},
+           familyi={M\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3926640c01319ca567d5ece6c7edbfb7}
+      \strng{fullhash}{e55d784c3bc69595ee2fd94ed11e7ef2}
+      \strng{fullhashraw}{e55d784c3bc69595ee2fd94ed11e7ef2}
+      \strng{bibnamehash}{3926640c01319ca567d5ece6c7edbfb7}
+      \strng{authorbibnamehash}{3926640c01319ca567d5ece6c7edbfb7}
+      \strng{authornamehash}{3926640c01319ca567d5ece6c7edbfb7}
+      \strng{authorfullhash}{e55d784c3bc69595ee2fd94ed11e7ef2}
+      \strng{authorfullhashraw}{e55d784c3bc69595ee2fd94ed11e7ef2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Currently 99.8\% of global transport is powered by internal combustion engines (ICEs) and 95\% of transport energy comes from liquid fuels made from petroleum. Many alternatives including battery electric vehicles (BEVs) and other fuels like biofuels and hydrogen are being considered. However, all these alternatives start from a very low base and face very significant barriers to unlimited expansion so that 85--90\% of transport energy is expected to come from conventional liquid fuels powering combustion engines even by 2040. Hence it is imperative that ICEs are improved in order to reduce the local and global environmental impact of transport. This paper considers the scope for such improvement after discussing the basic principles that govern engine efficiency and the technologies to control exhaust pollution. The great scope for such improvement is illustrated by considering various practical approaches already in the market. For instance, the best in class SI engines in the U.S. have 14\% lower fuel consumption compared to the average. Engine and conventional powertrain developments alone could reduce the fuel consumption by over 30\% for light duty vehicles (LDVs). Implementing other technologies such as hybridisation and light-weighting could reduce fuel consumption by 50\% compared to the current average for LDVs. Current after-treatment technology can ensure that the exhaust pollutant levels meet the most stringent current emissions requirements. Indeed, with the most modern diesel vehicles, the exhaust can be cleaner than the intake air in urban centres. The implications for transport policy, particularly where there are plans to ban ICEs, are considered in the final discussion. All available technologies need to be deployed to mitigate the environmental impact of transport and it would be extremely short-sighted to discourage further development of ICEs by limiting their sales.}
+      \field{issn}{2666691X}
+      \field{journaltitle}{Transportation Engineering}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{The Scope for Improving the Efficiency and Environmental Impact of Internal Combustion Engines}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{100005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.treng.2020.100005
+      \endverb
+      \verb{file}
+      \verb /Users/fabiankuhn/Zotero/storage/HH745KG3/Leach et al. - 2020 - The scope for improving the efficiency and environmental impact of internal combustion engines.pdf
+      \endverb
+    \endentry
+    \entry{merker2019}{book}{}{}
+      \name{editor}{2}{}{%
+        {{hash=37dcd9c9775aaa8c9f86c87af88d08c6}{%
+           family={Merker},
+           familyi={M\bibinitperiod},
+           given={Günter\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1e02ed17e7e4f92ffbb3999a80dd76b1}{%
+           family={Teichmann},
+           familyi={T\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{39e74230f4e4a296956ba969767812d5}
+      \strng{fullhash}{39e74230f4e4a296956ba969767812d5}
+      \strng{fullhashraw}{39e74230f4e4a296956ba969767812d5}
+      \strng{bibnamehash}{39e74230f4e4a296956ba969767812d5}
+      \strng{editorbibnamehash}{39e74230f4e4a296956ba969767812d5}
+      \strng{editornamehash}{39e74230f4e4a296956ba969767812d5}
+      \strng{editorfullhash}{39e74230f4e4a296956ba969767812d5}
+      \strng{editorfullhashraw}{39e74230f4e4a296956ba969767812d5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-658-23556-7 978-3-658-23557-4}
+      \field{langid}{ngerman}
+      \field{shorttitle}{{Grundlagen Verbrennungsmotoren}}
+      \field{title}{{Grundlagen Verbrennungsmotoren: Funktionsweise und alternative Antriebssysteme Verbrennung, Messtechnik und Simulation}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-658-23557-4
+      \endverb
+      \verb{file}
+      \verb /Users/fabiankuhn/Zotero/storage/XHY5BU7N/Merker und Teichmann - 2019 - Grundlagen Verbrennungsmotoren Funktionsweise und alternative Antriebssysteme Verbrennung, Messtech.pdf
+      \endverb
+    \endentry
+    \entry{shahad2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5d1127592a51c1cd07d84ec7b3cc1b29}{%
+           family={Shahad},
+           familyi={S\bibinitperiod},
+           given={Haroun\bibnamedelimb A.\bibnamedelimi K.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e21ed3679e0add03889919d21eb642ce}{%
+           family={Wabdan},
+           familyi={W\bibinitperiod},
+           given={Saad\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e353210d5c2bf143bc978615ff70d621}
+      \strng{fullhash}{e353210d5c2bf143bc978615ff70d621}
+      \strng{fullhashraw}{e353210d5c2bf143bc978615ff70d621}
+      \strng{bibnamehash}{e353210d5c2bf143bc978615ff70d621}
+      \strng{authorbibnamehash}{e353210d5c2bf143bc978615ff70d621}
+      \strng{authornamehash}{e353210d5c2bf143bc978615ff70d621}
+      \strng{authorfullhash}{e353210d5c2bf143bc978615ff70d621}
+      \strng{authorfullhashraw}{e353210d5c2bf143bc978615ff70d621}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study is an experimental investigation of the effect of bioethanol gasoline blending on exhaust emissions in terms of carbon dioxide CO2, carbon monoxide CO, unburnt hydrocarbons UHC, and nitric oxide NOx of a spark ignition engine. Tests are conducted at controlled throttle and variable speed condition over the range of 1200 to 2000 rpm with intervals 400 rpm. Different compression ratios are tested for each speed, namely (7,8,10, and 11). Pure gasoline and bioethanol gasoline blends are used. The bioethanol used is produced from Iraqi date crop (Zehdi). Blending is done on energy replacement bases. Ethanol energy ratio (EER) used is 5\%, 10\%, and 15\%. At each of the three designated engine speeds, the torque is set as 0, 3, 7, 10, and 14 N{$\cdot$}m. It is found that ethanol blending reduces CO and UHC concentration in the exhaust gases by about 45\% and 40.15\%, respectively, and increases NOx and CO2 concentrations in the exhaust gases by about 16.18\% and 7.5\%, respectively. It is found also that load and speed increase causes an increase in CO2 and NOx concentrations and reduces CO and UHC concentrations. It is also found that increasing the compression ratio causes the emissions of CO2 and NOx to decrease and those of CO and UHC to increase.}
+      \field{issn}{2314-4394}
+      \field{journaltitle}{Journal of Renewable Energy}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Effect of {{Operating Conditions}} on {{Pollutants Concentration Emitted}} from a {{Spark Ignition Engine Fueled}} with {{Gasoline Bioethanol Blends}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{2015}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{170896}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2015/170896
+      \endverb
+      \verb{file}
+      \verb /Users/fabiankuhn/Zotero/storage/5F5B5U3B/Shahad und Wabdan - 2015 - Effect of Operating Conditions on Pollutants Concentration Emitted from a Spark Ignition Engine Fuel.pdf;/Users/fabiankuhn/Zotero/storage/HVR4NLN2/170896.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
