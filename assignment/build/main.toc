@@ -4,8 +4,8 @@
 \contentsline {subsection}{\numberline {1.1}Relevanz und Problemstellung}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Vorgehensweise und Aufbau der Arbeit}{1}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Grundlagenthema 1}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Grundlagenthema 2}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.1}Modell nach Scherf}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Differenzialgleichung der Temperatur}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Grundlagenthema 3}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Hauptteil}{3}{section.3}%
 \contentsline {section}{\numberline {4}Fazit}{4}{section.4}%

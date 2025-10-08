@@ -1,6 +1,13 @@
 \section{Grundlagen}
 
-\subsection{Grundlagenthema 1}
+\subsection{Modell nach Scherf}
+Das Hauptziel des Modells nach Scherf\footcite[prenote][94-101]{scherf2010} ist es den zeitlichen Verlauf von Druck und Temperatur des Gases im Zylinder eines Viertakt-Ottomotors zu simulieren.
+Das Modell beschränkt sich dabei auf den Verdichtungs- und Arbeitstakt, da in diesen die wesentlichen thermodynamischen Prozesse stattfinden.
+Der Verdichtungstakt beginnt mit dem unteren Totpunkt (UT) bei 180° und endet am oberen Totpunkt (OT) bei 360° Kurbelwinkel.
+Der Arbeitstakt beginnt am OT bei 360° und endet am UT bei 540° Kurbelwinkel.
+Das Ansaugen und Ausstoßen des Gases wird bewusst vernachlässigt, weshalb die Simualtion bei 540° Kurbelwinkel stoppt.
+
+\subsection{Differenzialgleichung der Temperatur}
 Das Kernstück des zugrundeliegenden Modells nach Scherf ist der 1. Hauptsatz der Thermodynamik für ein geschlossenes System. 
 Dieser besagt, dass die Änderung der inneren Energie des Gases $\Delta U$ die Summe aus der zugeführten Wärme $\Delta Q$ und der am Gas verrichteten Arbeit $\Delta W$ ist.
 
@@ -8,8 +15,5 @@ In der Simulation wird dies so umgeformt, dass sich eine Differenzialgleichung f
 Die Gleichung folgt der Idee, dass sich die Temperatur im Zylinder aufgrund von drei Energieflüssen ergibt, welche im Summenblock zusammengeführt werden: der zugeführten Wärme durch die Verbrennung $\Delta \dot{Q}_B$, der abgeführten Wärme an die Zylinderwand $\Delta \dot{Q}_W$, sowie der abgeführten Energie durch die mechanische Arbeit des Kolbens. 
 Teilt man diese drei Leistungen durch die Wärmekapazität ergibt sich die Temperaturänderung. 
 Durch eine Integration dieser erhält man die absolute Temperatur.
-
-\subsection{Grundlagenthema 2}
-
 
 \subsection{Grundlagenthema 3}

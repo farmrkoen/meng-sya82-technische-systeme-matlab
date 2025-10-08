@@ -145,6 +145,49 @@
       \endverb
       \keyw{/unread}
     \endentry
+    \entry{scherf2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=858934048471764c863ce6e3b93c8564}{%
+           family={Scherf},
+           familyi={S\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oldenbourg Wissenschaftsverlag}%
+      }
+      \strng{namehash}{858934048471764c863ce6e3b93c8564}
+      \strng{fullhash}{858934048471764c863ce6e3b93c8564}
+      \strng{fullhashraw}{858934048471764c863ce6e3b93c8564}
+      \strng{bibnamehash}{858934048471764c863ce6e3b93c8564}
+      \strng{authorbibnamehash}{858934048471764c863ce6e3b93c8564}
+      \strng{authornamehash}{858934048471764c863ce6e3b93c8564}
+      \strng{authorfullhash}{858934048471764c863ce6e3b93c8564}
+      \strng{authorfullhashraw}{858934048471764c863ce6e3b93c8564}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-486-71134-9}
+      \field{langid}{ngerman}
+      \field{month}{1}
+      \field{shorttitle}{{Modellbildung und Simulation dynamischer Systeme}}
+      \field{title}{{Modellbildung und Simulation dynamischer Systeme: Eine Sammlung von Simulink-Beispielen}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1524/9783486711349
+      \endverb
+      \verb{file}
+      \verb C:\Users\kuhnf\Zotero\storage\FWACP3IK\Scherf - 2010 - Modellbildung und Simulation dynamischer Systeme Eine Sammlung von Simulink-Beispielen.pdf
+      \endverb
+      \keyw{/unread}
+    \endentry
     \entry{shahad2015}{article}{}{}
       \name{author}{2}{}{%
         {{hash=5d1127592a51c1cd07d84ec7b3cc1b29}{%
