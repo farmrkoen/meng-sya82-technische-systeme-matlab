@@ -34,5 +34,8 @@ Um diese auszugleichen wird ein PID-Regler entworfen.
 Zuerst wird ein Sollwert für den Regelkreis festgelegt.
 Die schwankende, aktuelle Winkelgeschwindigkeit des Motors (Istwert) wird mithilfe eines Tiefpassfilters (PT1-Glied) geglättet, um dem Regler ein stabiles Signal zu liefern.
 Die notwendige Stellgröße des PID-Reglers wird basierend auf der Regeldifferenz generiert und als Skalierfaktor für die Gesamtwärmemenge im Modell genutzt.
+Im finalen Schritt wird das erstelle Modell simuliert und validiert.
+Mittels eines Vergleiches zweier Simulationen, von denen eine das ungeregelte System darstellt und eines das System mit aktivem PID-Regler, wird die Wirksamkeit der Regelung demonstriert.
+Die Ergebnisse werden grafisch aufbereitet und analysiert.
 
 Abschließend werden die Ergebnisse der Arbeit kritisch reflektiert, zusammengefasst und ein Ausblick vorgestellt.

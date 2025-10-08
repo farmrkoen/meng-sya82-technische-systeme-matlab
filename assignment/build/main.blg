@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'build/main.blg'
-[25] biber-darwin:340> INFO - === Sun Oct  5, 2025, 22:39:39
-[31] Biber.pm:420> INFO - Reading 'build/main.bcf'
-[58] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
-[63] Biber.pm:4463> INFO - Processing section 0
-[67] Biber.pm:4654> INFO - Looking for bibtex file 'SYA82.bib' for section 0
-[67] bibtex.pm:1713> INFO - LaTeX decoding ...
-[72] bibtex.pm:1519> INFO - Found BibTeX data source 'SYA82.bib'
-[100] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[100] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[100] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[100] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
-[102] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[103] bbl.pm:779> INFO - Output to build/main.bbl
-[103] Biber.pm:131> WARN - ISBN '978-3-658-23556-7 978-3-658-23557-4' in entry 'merker2019' is invalid - run biber with '--validate_datamodel' for details.
-[103] Biber.pm:133> INFO - WARNINGS: 1
+[123] biber-MSWIN64:340> INFO - === 
+[165] Biber.pm:420> INFO - Reading 'build/main.bcf'
+[289] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
+[304] Biber.pm:4463> INFO - Processing section 0
+[318] Biber.pm:4654> INFO - Looking for bibtex file 'SYA82.bib' for section 0
+[387] bibtex.pm:1713> INFO - LaTeX decoding ...
+[415] bibtex.pm:1519> INFO - Found BibTeX data source 'SYA82.bib'
+[495] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[495] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[495] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[495] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[500] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[503] bbl.pm:779> INFO - Output to build/main.bbl
+[503] Biber.pm:131> WARN - ISBN '978-3-658-23556-7 978-3-658-23557-4' in entry 'merker2019' is invalid - run biber with '--validate_datamodel' for details.
+[503] Biber.pm:133> INFO - WARNINGS: 1
